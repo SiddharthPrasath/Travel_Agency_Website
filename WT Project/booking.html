@@ -1,0 +1,84 @@
+
+<html lang="en">
+<head>
+<title>WT Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="./style/css/bootstrap.css">
+<link rel="stylesheet" href="./style/css/style.css" type="text/css" media="all">
+
+</head>
+<body>
+
+<header>
+<div class="container">
+<nav class="py-md-4">
+<div id="logo">
+<h1 class="mt-2"> <a href="index.html" class=""> Mumbai Tourism </a></h1>
+</div>
+<input type="checkbox" id="drop">
+<ul class="mt-1">
+<li class="active"><a href="index.html">Home</a></li>
+<li class="booking"><a href="booking.html">Book Now</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="banner_inner" id="home">
+<div class="banner_inner_overlay">
+</div>
+</section>
+<section class="contact py-5">
+<div class="container py-lg-5">
+<h2 class="heading text-capitalize text-center mb-lg-5 mb-4"> Book Your Tour</h2>
+<div class="contact-grids">
+<div class="row">
+<div class="col-lg-7 contact-left-form">
+<form action="details_entry.php" method="post" class="row">
+<div class="col-sm-6 form-group contact-forms">
+<input type="text" class="form-control" placeholder="Name" required="" name="name">
+</div>
+<div class="col-sm-6 form-group contact-forms">
+<input type="email" class="form-control" placeholder="Email" required="" name="email">
+</div>
+<div class="col-sm-6 form-group contact-forms">
+<input type="text" class="form-control" placeholder="Phone" required="" name="phone">
+</div>
+<div class="col-sm-6 form-group contact-forms">
+<input type="text" class="form-control" placeholder="Duration of Trip" required="" name="dot">
+</div>
+<div class="col-sm-6 form-group contact-forms">
+<select class="form-control" id="adults" name="adults">
+<option>Adults</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5 or more</option>
+</select>
+</div>
+<div class="col-sm-6 form-group contact-forms">
+<select class="form-control" id="kids" name="kids">
+<option>Kids</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5 or more</option>
+</select>
+</div>
+<div class="col-md-12 form-group contact-forms">
+ <textarea class="form-control" placeholder="Message" rows="3" required="" name="message"></textarea>
+</div>
+<div class="col-md-12">
+<button class="btn btn-block sent-butnn">Book Now</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
